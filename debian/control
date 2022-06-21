@@ -1,0 +1,18 @@
+Source: gw-archive-keyring
+Priority: important
+Section: misc
+Maintainer: Global Wire Security Team <security+packaging@global-wire.fi>
+Uploaders: Kimmo Suominen <kimmo@suominen.com>
+Build-Depends: debhelper (>= 10), jetring, gnupg, lsb-release
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+Vcs-Browser: https://github.com/globalwire/gw-archive-keyring
+Vcs-Git: https://github.com/globalwire/gw-archive-keyring.git
+
+Package: gw-archive-keyring
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: GnuPG archive keys of the Global Wire archive
+ Global Wire digitally signs its Release files. This package contains
+ the archive keys used for that.

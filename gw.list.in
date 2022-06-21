@@ -1,0 +1,2 @@
+deb [signed-by=/usr/share/keyrings/gw-archive-keyring.gpg] https://repo.gw.fi/stable/@OS@/ @CN@ main
+deb [signed-by=/usr/share/keyrings/gw-archive-keyring.gpg] https://repo.gw.fi/testing/@OS@/ @CN@ main
